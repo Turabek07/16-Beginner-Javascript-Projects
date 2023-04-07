@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+}
+
+.top-container {
+    background-image: url("https://images.unsplash.com/photo-1542393545-10f5cde2c810?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1065&q=80://images.unsplash.com/photo-1531771686035-25f47595c87a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1065&q=80");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-container h1 {
+    color: antiquewhite;
+    font-size: 50px;
+    font-family: cursive;
+    letter-spacing: 2px;
+}
+
+.text {
+    margin: 50px 5%;
+    font-family: cursive;
+}
+
+.navbar {
+    display: flex;
+    position: fixed;
+    background-color: azure;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: black;
+    font-family: cursive;
+}
+
+.navbar ul li a:hover {
+    color: indianred;
+}
+.navbar .active {
+    background-color: black;
+}
+.navbar .active ul li a {
+    color: burlywood;
+}
