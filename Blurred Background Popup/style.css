@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-image: url("https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2020&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+h1 {
+    font-size: 55px;
+    color: beige;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 4px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.btn {
+    padding: 10px 20px;
+    width: 200px;
+    cursor: pointer;
+    background-color: rgb(240, 202, 132);
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.btn:hover {
+    filter: brightness(0.8);
+}
+
+.active.container {
+    filter: blur(2px) brightness(.9);
+}
+
+.popup-container {
+    position: fixed;
+    left: 50%;
+    transform: translateX((-50%));
+    background-color: azure;
+    width: 400px;
+    height: 200px;
+    top: 30%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background: url("https://images.unsplash.com/uploads/141103282695035fa1380/95cdfeef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2860&q=80");
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+h4{
+    font-size: 30px;
+    margin: 10px 0;
+    font-family: cursive;
+    color: rgb(88, 145, 3);
+}
+label{
+    color: rgb(210, 240, 60);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.popup-btn{
+    background-color:coral ;
+    padding: 10px;
+    font-size: 20px;
+    margin: 10px;
+    cursor: pointer;
+    border: 2px solid;
+    border-radius: 5px;
+}
+.input{
+    border: 2px solid;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+.input::placeholder{
+    color: lightgray;
+}
+.close-icon{
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+}
+.close-icon:hover{
+    color: coral;
+}
+.active.popup-container{
+    visibility: hidden;
+}
