@@ -12,6 +12,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+    transition: filter .7s;
 }
 
 h1 {
@@ -42,7 +43,7 @@ h1 {
 
 .popup-container {
     position: fixed;
-    left: 50%;
+    left: 38%;
     transform: translateX((-50%));
     background-color: azure;
     width: 400px;
@@ -55,6 +56,8 @@ h1 {
     background-size: cover;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    opacity: 1;
+    transition: all 0.7s;
 }
 h4{
     font-size: 30px;
@@ -63,7 +66,7 @@ h4{
     color: rgb(88, 145, 3);
 }
 label{
-    color: rgb(210, 240, 60);
+    color: black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .popup-btn{
@@ -95,4 +98,6 @@ label{
 }
 .active.popup-container{
     visibility: hidden;
+    opacity: 0;
+    top: 10%;
 }
