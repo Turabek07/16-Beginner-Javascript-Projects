@@ -33,7 +33,7 @@ body {
   }
   
   .input:checked + .label {
-    background-color: rgb(224, 133, 133);
+    background-color: azure
   }
   
   .input:checked + .label .circle {
