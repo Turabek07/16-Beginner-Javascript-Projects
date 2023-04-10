@@ -31,6 +31,7 @@ h1{
     background-image: url("image/crash.png");
     background-size: cover;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    text-transform: capitalize;
 }
 .btn:hover{
     color: palegreen;
