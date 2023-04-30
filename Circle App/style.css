@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: black;
+    overflow: hidden;
+}
+span{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: beige;
+    border: 5px red solid;
+    border-radius: 60px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+/* @keyframes animate {
+    0% {
+        transform: translate(-50%, -50%);
+        opacity: 1;
+        filter: hue-rotate(0);
+    }
+
+    100% {
+        transform: translate(-50%, -5000%);
+        opacity: 0;
+        filter: hue-rotate(720deg);
+    }
+} */
